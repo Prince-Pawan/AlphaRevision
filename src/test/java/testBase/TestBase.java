@@ -122,6 +122,7 @@ public class TestBase {
 
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date(5));
 		
+		//String rand= RandomStringUtils.randomAlphanumeric(5);		
 		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
 		File sc= takesScreenshot.getScreenshotAs(OutputType.FILE);
 		
